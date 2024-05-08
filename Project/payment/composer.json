@@ -1,0 +1,16 @@
+{
+    "name": "amy/payment",
+    "require": {
+        "stripe/stripe-php": "^12.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amy\\Payment\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Emmie"
+        }
+    ]
+}
